@@ -65,8 +65,8 @@ public class SendEmail
      			// Set the from address
      			message.setFrom(new InternetAddress("vibhav.gupta116@gmail.com"));
       
-     			// Set the recipient address
-     			message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("vibhav.gupta116@gmail.com"));
+     			// Set the recipient address     			
+     			message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("vibhav.gupta116@gmail.com,guptavibhav066@gmail.com"));
                  
                              // Add the subject link
      			message.setSubject("Testing Subject");
