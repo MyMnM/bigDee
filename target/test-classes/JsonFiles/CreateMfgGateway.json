@@ -1,0 +1,13 @@
+{
+  "manufacturerID": 15569,
+  "catalogID": 0,
+  "gatewayName": "ltl_post",
+  "merchantName": "Shopatron*PitchStor_post",
+  "merchantPhone": "877 412 7467",
+  "paymentType": "CC",
+  "currency": "USD",
+  "usernameOverride": "**********",
+  "passwordOverride": "**********",
+  "merchantIDOverride": "**********",
+  "locale": "en-US"
+}

@@ -1,0 +1,7 @@
+.settings/
+.classpath
+.project
+test-output/
+_classpath.xml
+_project.xml
+testng.out.xml

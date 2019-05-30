@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: step_definitions.FailedScenarios
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.118 sec <<< FAILURE! - in step_definitions.FailedScenarios
+teardown(step_definitions.FailedScenarios)  Time elapsed: 0.741 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at step_definitions.FailedScenarios.teardown(FailedScenarios.java:36)
+

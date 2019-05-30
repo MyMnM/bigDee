@@ -1,0 +1,133 @@
+{
+  "externalOrderID": "Lab{{$randomInt66}}",
+  "manufacturerID": 15569,
+  "catalogID": 19,
+  "locale": "en-US",
+  "currency": "USD",
+  "customer": {
+    "customerID": null,
+    "firstName": "Bobby",
+    "lastName": "Customer{{$randomInt66}}",
+    "email": "qa-DDonuts21@shopatron.com",
+    "password": null,
+    "phone1": "852-658-4578x1232",
+    "phone2": "8885552142",
+    "accountCreated": null
+  },
+  "orderItems": [
+    {
+      "product": {
+        "partNumber": "LoadTestingPart1",
+        "productID": null,
+        "availability": "Y",
+        "name": "Part 1",
+        "retailPrice": 2.00,
+        "averageDealerMargin": 0.30,
+        "UPC": "LoadTestingPart1",
+        "SKU": "LoadTestingPart1",
+        "productDetailsURL":"https://google.com/random"
+      },
+      "itemSpecifics": {
+        "externalItemID": null,
+        "actualPrice": 1.00,
+        "quantity": 4,
+        "shipping": null,
+        "shippingTax": null,
+        "itemTaxOverride": 0,
+        "customItemData": {
+"image_url": "http://images.clipartpanda.com/laughing-smiley-face-clip-art-xTgG9rnTA.jpeg"
+},
+        "options": {
+          
+          "color": "blue"
+        },
+        "customData": null
+      }
+    }
+  ],
+
+  "shippingMethod": {
+    "shippingType": "standard",
+    "shippingClass": "Standard"
+  },
+  "shippingAddress": {
+    "addressID": null,
+    "customerID": null,
+    "addressLine1": "{{$randomInt66}} East Sky Harbor Blvd.",
+    "addressLine2": null,
+    "addressLine3": null,
+    "phone": "805-222-3332",
+    "city": "Phoenix",
+    "postalCode": "85034",
+    "state": "AZ",
+    "countryCode": "US",
+    "latitude": null,
+    "longitude": null,
+    "fraudLock": false,
+    "active": false
+  },
+  "orderPayments": [
+    {
+      "orderPaymentID": null,
+      "paymentMethod": {
+        "billingAddress": {
+          "addressID": null,
+          "customerID": null,
+          "addressLine1": "{{$randomInt66}} East Sky Harbor Blvd.",
+          "addressLine2": null,
+          "addressLine3": null,
+          "phone": "805-222-3339",
+          "city": "Phoenix",
+          "postalCode": "85034",
+              "state": "AZ",
+          "countryCode": "US",
+          "latitude": null,
+          "longitude": null,
+          "fraudLock": false,
+          "active": true
+        },
+        "paymentType": "CC",
+        "cardIssuer": "VI",
+        "cardNumber": "4111111111111111",
+        "cardSecurityCode": "111",
+        "cardExpiration": "12/2018",
+        "paymentClass": "CreditCard"
+      },
+      "paymentMethodID": null,
+      "maxAmount": 10,
+      "transactionID": "12123",
+      "authorizationID": "48484",
+      "paymentType": null,
+      "authAmount": 20
+    }
+  ],
+  "customerIP": "0.0.0.0",
+  "orderID": null,
+  "shippingTax": 2,
+  "forceItemTaxOverride": true,
+  "optInRetailer": true,
+  "landingCode": "TestLandingCode",
+     "discounts": [{
+    "code": "Promotion",
+    "singleUseCode": null,
+    "description": "Test Promotion",
+    "externalDiscountID" : "1556",
+    "amount": 0.30,
+    "type": "$0.30 auto-apply"
+  }],
+     "fraudData":[
+        {
+            "fraudType":"KOUNT",
+            "fraudScore":350,
+            "fraudTransactionID":"ASDF324234142",
+            "fraudState":"ACCEPTED"
+        }
+        ],
+  
+  "allowSplit": true,
+  "orderGift": {
+    "recipient": "Bob Customer",
+    "message": "this is the gift message0001"
+  },
+  "orderComment": "This is a customer comment."
+}
