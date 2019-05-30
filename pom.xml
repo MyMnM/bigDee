@@ -197,7 +197,7 @@
               
              
                  <includes>
-                 <include>step_definitions/RunCukesTest.java</include>
+                 <include>step_definitions/P1RunnerTest.java</include>
                  </includes>                
             </configuration>             
 			</plugin>
